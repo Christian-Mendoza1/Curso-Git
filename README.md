@@ -151,3 +151,200 @@ Estos proximos comando son los más básicos pero los más importantes para pode
     ```
 
 * ### git add
+
+    Este comando sirve para agregar el archivo con su nombre en específico a la etapa de stage de nuestro repositorio de GIT.
+
+    ```
+    git add index.html
+    
+    ```
+
+* ### git add .
+
+    Este comando agregará todos los archivos de nuestra etapa de stage de nuestro repositorio. **No se recomienda utilizar este comando**.
+
+    
+    ```
+    git add .
+    
+    ```
+
+* ### git commit -m
+
+    Este comando compromete el archivo de la etapa de stage y lo sube a nuestro repositorio, **Es necesario ponerle un comentario con una breve descripción sobre nuestra modificación**.
+
+    
+    ```
+    git commit -m "Este es un comentario modificado"
+    
+    ```
+
+* ### git commit -a
+
+    Este comando abre un archivo en nuestro editor de código y ahí escribiremos un mensaje para subirlo a nuestro repositorio y después cerrarlo. 
+    
+    **Este comando compromete todos los archivos en la etapa de stage, no recomiendo utilizarlo.**
+
+    
+    ```
+    git add -a
+    
+    ```
+
+* ### rm
+
+    Este comando eliminará un archivo de nuestro git branch.
+
+    
+    ```
+    rm index.html
+    
+    ```
+
+* ### git restore --staged
+
+    Este comando sirve para sacar un archivo a la etapa de stage.
+
+    
+    ```
+    git restore --staged
+    
+    ```
+
+* ### git restore
+
+    Este comando sirve para recuperar un archivo de la etapa de stage.
+
+    
+    ```
+    git restore index.hmtl
+    
+    ```
+
+* ### mv
+
+    Con este comando podremos cambiar el nombre de un archivo.
+
+    
+    ```
+    mv index.html myProyect.html
+    
+    ```
+
+* ### git diff
+
+    Con este comando veremos de una manera más visual los cambios en algun archivo.
+
+    
+    ```
+    git diff
+    
+    ```
+
+* ### git branch
+
+    Este comando muestra la rama en la que estamos.
+
+    
+    ```
+    git branch
+    
+    ```
+
+* ### git branch -m
+
+    Este comando sirve para cambiarle el nombre a una branch (rama) de nuestro repositorio de GIT.
+
+    
+    ```
+    git branch -m Rama-1
+    
+    ```
+
+* ### git checkout -b
+
+    Este comando sirve para crear una nueva branch (rama) en nuestro repositorio de GIT y cambiarnos hacia ella.
+
+    
+    ```
+    git checkout -b Rama-2
+    
+    ```
+
+* ### git checkout
+
+    Con este comando nos cambiaremos a diferentes branch (ramas) de nuestro depositorio de GIT.
+
+    
+    ```
+    git checkout Rama-3
+    
+    ```
+
+* ### git log
+
+    Este comando mostrará a detalle el historial de nuestro repositorio de GIT.
+
+    
+    ```
+    git log
+    
+    ```
+
+* ### git log --online 
+
+    Este comando mostrará la información más importante en el historial de nuestro repositorio de GIT.
+
+    
+    ```
+    git log --online
+    
+    ```
+
+* ### cat
+
+    Este comando mostrará el contenido de nuestro archivo.
+
+    
+    ```
+    cat 
+    
+    ```
+
+* ### git merge
+
+    Este comando sirve para enviar las modificaciones de un branch al branch principal de nuestro repositorio.
+
+    
+    ```
+    git merge main
+    
+    ```
+
+* ### git branch -d
+
+    Este comando sirve para eliminar una branch en nuestro repositorio de GIT.
+
+    
+    ```
+    git branch -d Rama-1
+    
+    ```
+
+* ### git push -u origin 
+
+    Este comando sirve para mandar a nuestro repositorio todas nuestras modificaciones y archivos creados en el branch.
+
+    **Cuando modifiquemos un archivo ya existente en el branch es necesario hacer esto para ver las nuevas modificaciones del archivo ya en el repositorio.**
+
+    
+    ```
+    git push -u origin main
+    
+    ```
+
+## Comentarios Finales
+
+Estos son los comando más utilizados e importantes para empezar a dominar GIT e ir explorando y trabajando con está herramienta super importante en el mundo TEC, si quieres escucharlo y verlo de una manera más detallada para complementar está información aquí te dejo el link a mi curso de Youtube explicando la teoría de éste repositorio.
+
+### Curso Creado por Christian Mendoza 2025
